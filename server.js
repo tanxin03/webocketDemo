@@ -5,6 +5,7 @@ app.listen(8081)
 console.log("1")
 console.log("2")
 console.log("3")
+console.log("4")
 function handler(req,res){
   fs.readFile(__dirname+'/web/index.html',function(err,data){
     if(err){
