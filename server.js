@@ -18,6 +18,7 @@ function handler(req,res){
   })
 }
 console.log("5")
+console.log("9")
 var server=ws.createServer(function(conn){
   console.log('new conneciton')
   conn.on("text",function(str){
