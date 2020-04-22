@@ -32,3 +32,4 @@ function broadcast(server, msg) {
     conn.sendText(msg)
   })
 }
+console.log("7")
