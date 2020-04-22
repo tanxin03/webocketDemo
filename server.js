@@ -2,7 +2,7 @@ var app=require('http').createServer(handler)
 var ws=require('nodejs-websocket')
 var fs=require('fs')
 app.listen(8081)
-
+console.log("1")
 function handler(req,res){
   fs.readFile(__dirname+'/web/index.html',function(err,data){
     if(err){
